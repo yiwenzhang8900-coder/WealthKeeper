@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* WealthKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* WealthKeeperApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* PortfolioView.swift */; };
+		A10000000000000000000004 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* AddTransactionView.swift */; };
+		A10000000000000000000005 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* SettingsView.swift */; };
+		A10000000000000000000006 /* MarketEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* MarketEnums.swift */; };
+		A10000000000000000000007 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* Instrument.swift */; };
+		A10000000000000000000008 /* TransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* TransactionRecord.swift */; };
+		A10000000000000000000009 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* Position.swift */; };
+		A1000000000000000000000A /* CorporateActionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* CorporateActionRecord.swift */; };
+		A1000000000000000000000B /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* AppSettings.swift */; };
+		A1000000000000000000000C /* MarketDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* MarketDataTypes.swift */; };
+		A1000000000000000000000D /* YahooFinanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* YahooFinanceProvider.swift */; };
+		A1000000000000000000000E /* EastMoneyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* EastMoneyProvider.swift */; };
+		A1000000000000000000000F /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* MarketDataService.swift */; };
+		A10000000000000000000010 /* PortfolioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* PortfolioEngine.swift */; };
+		A10000000000000000000011 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* Formatters.swift */; };
+		A10000000000000000000012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* Assets.xcassets */; };
+		A10000000000000000000013 /* InstrumentSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* InstrumentSearchService.swift */; };
+		A10000000000000000000014 /* InstrumentSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* InstrumentSearchView.swift */; };
+		A10000000000000000000015 /* TradingCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* TradingCalendar.swift */; };
+		A10000000000000000000016 /* QuoteStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* QuoteStatus.swift */; };
+		A10000000000000000000017 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* AppLog.swift */; };
+		A10000000000000000000018 /* MockMarketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000018 /* MockMarketData.swift */; };
+		A10000000000000000000019 /* TransactionSaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000019 /* TransactionSaveService.swift */; };
+		A1000000000000000000001A /* FXRateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001A /* FXRateProvider.swift */; };
+		A1000000000000000000001B /* DecimalMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001B /* DecimalMath.swift */; };
+		A1000000000000000000001C /* CompatTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001C /* CompatTextFields.swift */; };
+		A1000000000000000000001D /* AssetClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001D /* AssetClass.swift */; };
+		A1000000000000000000001E /* ManualAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001E /* ManualAssets.swift */; };
+		A1000000000000000000001F /* WealthSummaryEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001F /* WealthSummaryEngine.swift */; };
+		A10000000000000000000020 /* ManualAssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000020 /* ManualAssetsView.swift */; };
+		A10000000000000000000021 /* ReturnBreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000021 /* ReturnBreakdownView.swift */; };
+		A10000000000000000000022 /* BankDepositsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000022 /* BankDepositsView.swift */; };
+		A10000000000000000000023 /* CategoryManageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000023 /* CategoryManageViews.swift */; };
+		A10000000000000000000024 /* LifestyleLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000024 /* LifestyleLedger.swift */; };
+		A10000000000000000000025 /* LifestyleLedgerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000025 /* LifestyleLedgerView.swift */; };
+		A10000000000000000000026 /* LocalDataMaintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000026 /* LocalDataMaintenance.swift */; };
+		A10000000000000000000027 /* LegalDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000027 /* LegalDocuments.swift */; };
+		A10000000000000000000029 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000029 /* AppTheme.swift */; };
+		A1000000000000000000002D /* AppSupportConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000002D /* AppSupportConfig.swift */; };
+		A1000000000000000000002A /* HoldingOverviewComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000002A /* HoldingOverviewComponents.swift */; };
+		A1000000000000000000002B /* PositionClearService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000002B /* PositionClearService.swift */; };
+		A1000000000000000000002C /* BankDepositTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000002C /* BankDepositTransferService.swift */; };
+		A10000000000000000000028 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000028 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* WealthKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WealthKeeperApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* MarketEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketEnums.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* Instrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* TransactionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRecord.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* CorporateActionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorporateActionRecord.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* MarketDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataTypes.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* YahooFinanceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooFinanceProvider.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* EastMoneyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastMoneyProvider.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* PortfolioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioEngine.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000013 /* InstrumentSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentSearchService.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* InstrumentSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentSearchView.swift; sourceTree = "<group>"; };
+		B10000000000000000000015 /* TradingCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCalendar.swift; sourceTree = "<group>"; };
+		B10000000000000000000016 /* QuoteStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteStatus.swift; sourceTree = "<group>"; };
+		B10000000000000000000017 /* AppLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
+		B10000000000000000000018 /* MockMarketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMarketData.swift; sourceTree = "<group>"; };
+		B10000000000000000000019 /* TransactionSaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionSaveService.swift; sourceTree = "<group>"; };
+		B1000000000000000000001A /* FXRateProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXRateProvider.swift; sourceTree = "<group>"; };
+		B1000000000000000000001B /* DecimalMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalMath.swift; sourceTree = "<group>"; };
+		B1000000000000000000001C /* CompatTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatTextFields.swift; sourceTree = "<group>"; };
+		B1000000000000000000001D /* AssetClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetClass.swift; sourceTree = "<group>"; };
+		B1000000000000000000001E /* ManualAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAssets.swift; sourceTree = "<group>"; };
+		B1000000000000000000001F /* WealthSummaryEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WealthSummaryEngine.swift; sourceTree = "<group>"; };
+		B10000000000000000000020 /* ManualAssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAssetsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000021 /* ReturnBreakdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnBreakdownView.swift; sourceTree = "<group>"; };
+		B10000000000000000000022 /* BankDepositsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDepositsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000023 /* CategoryManageViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManageViews.swift; sourceTree = "<group>"; };
+		B10000000000000000000024 /* LifestyleLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifestyleLedger.swift; sourceTree = "<group>"; };
+		B10000000000000000000025 /* LifestyleLedgerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifestyleLedgerView.swift; sourceTree = "<group>"; };
+		B10000000000000000000026 /* LocalDataMaintenance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataMaintenance.swift; sourceTree = "<group>"; };
+		B10000000000000000000027 /* LegalDocuments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalDocuments.swift; sourceTree = "<group>"; };
+		B10000000000000000000029 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		B1000000000000000000002D /* AppSupportConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSupportConfig.swift; sourceTree = "<group>"; };
+		B1000000000000000000002A /* HoldingOverviewComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingOverviewComponents.swift; sourceTree = "<group>"; };
+		B1000000000000000000002B /* PositionClearService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionClearService.swift; sourceTree = "<group>"; };
+		B1000000000000000000002C /* BankDepositTransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDepositTransferService.swift; sourceTree = "<group>"; };
+		B10000000000000000000028 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C10000000000000000000001 /* WealthKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WealthKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				E10000000000000000000002 /* WealthKeeper */,
+				E10000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10000000000000000000002 /* WealthKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				E10000000000000000000004 /* App */,
+				E10000000000000000000005 /* Models */,
+				E10000000000000000000006 /* MarketData */,
+				E10000000000000000000007 /* Services */,
+				E10000000000000000000008 /* Features */,
+				E10000000000000000000009 /* Utilities */,
+				B10000000000000000000012 /* Assets.xcassets */,
+				B10000000000000000000028 /* PrivacyInfo.xcprivacy */,
+			);
+			path = WealthKeeper;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000001 /* WealthKeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* WealthKeeperApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000006 /* MarketEnums.swift */,
+				B1000000000000000000001D /* AssetClass.swift */,
+				B10000000000000000000007 /* Instrument.swift */,
+				B10000000000000000000008 /* TransactionRecord.swift */,
+				B10000000000000000000009 /* Position.swift */,
+				B1000000000000000000000A /* CorporateActionRecord.swift */,
+				B1000000000000000000000B /* AppSettings.swift */,
+				B1000000000000000000001E /* ManualAssets.swift */,
+				B10000000000000000000024 /* LifestyleLedger.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000006 /* MarketData */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000C /* MarketDataTypes.swift */,
+				B1000000000000000000000D /* YahooFinanceProvider.swift */,
+				B1000000000000000000000E /* EastMoneyProvider.swift */,
+				B1000000000000000000000F /* MarketDataService.swift */,
+				B10000000000000000000013 /* InstrumentSearchService.swift */,
+				B10000000000000000000015 /* TradingCalendar.swift */,
+				B10000000000000000000016 /* QuoteStatus.swift */,
+				B10000000000000000000018 /* MockMarketData.swift */,
+				B1000000000000000000001A /* FXRateProvider.swift */,
+			);
+			path = MarketData;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000010 /* PortfolioEngine.swift */,
+				B1000000000000000000001F /* WealthSummaryEngine.swift */,
+				B10000000000000000000019 /* TransactionSaveService.swift */,
+				B1000000000000000000002B /* PositionClearService.swift */,
+				B1000000000000000000002C /* BankDepositTransferService.swift */,
+				B10000000000000000000026 /* LocalDataMaintenance.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000008 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* ContentView.swift */,
+				E1000000000000000000000A /* Portfolio */,
+				E1000000000000000000000B /* Transactions */,
+				E1000000000000000000000C /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000009 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000011 /* Formatters.swift */,
+				B10000000000000000000017 /* AppLog.swift */,
+				B1000000000000000000001B /* DecimalMath.swift */,
+				B10000000000000000000029 /* AppTheme.swift */,
+				B1000000000000000000002D /* AppSupportConfig.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E1000000000000000000000A /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000003 /* PortfolioView.swift */,
+				B10000000000000000000020 /* ManualAssetsView.swift */,
+				B10000000000000000000021 /* ReturnBreakdownView.swift */,
+				B10000000000000000000022 /* BankDepositsView.swift */,
+				B10000000000000000000023 /* CategoryManageViews.swift */,
+				B1000000000000000000002A /* HoldingOverviewComponents.swift */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		E1000000000000000000000B /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000004 /* AddTransactionView.swift */,
+				B10000000000000000000014 /* InstrumentSearchView.swift */,
+				B1000000000000000000001C /* CompatTextFields.swift */,
+				B10000000000000000000025 /* LifestyleLedgerView.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		E1000000000000000000000C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000005 /* SettingsView.swift */,
+				B10000000000000000000027 /* LegalDocuments.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10000000000000000000001 /* WealthKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000004 /* Build configuration list for PBXNativeTarget "WealthKeeper" */;
+			buildPhases = (
+				F10000000000000000000002 /* Sources */,
+				D10000000000000000000001 /* Frameworks */,
+				F10000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WealthKeeper;
+			productName = WealthKeeper;
+			productReference = C10000000000000000000001 /* WealthKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10000000000000000000005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F10000000000000000000001 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = F10000000000000000000006 /* Build configuration list for PBXProject "WealthKeeper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = E10000000000000000000001;
+			productRefGroup = E10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10000000000000000000001 /* WealthKeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000012 /* Assets.xcassets in Resources */,
+				A10000000000000000000028 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* WealthKeeperApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* PortfolioView.swift in Sources */,
+				A10000000000000000000004 /* AddTransactionView.swift in Sources */,
+				A10000000000000000000005 /* SettingsView.swift in Sources */,
+				A10000000000000000000006 /* MarketEnums.swift in Sources */,
+				A10000000000000000000007 /* Instrument.swift in Sources */,
+				A10000000000000000000008 /* TransactionRecord.swift in Sources */,
+				A10000000000000000000009 /* Position.swift in Sources */,
+				A1000000000000000000000A /* CorporateActionRecord.swift in Sources */,
+				A1000000000000000000000B /* AppSettings.swift in Sources */,
+				A1000000000000000000000C /* MarketDataTypes.swift in Sources */,
+				A1000000000000000000000D /* YahooFinanceProvider.swift in Sources */,
+				A1000000000000000000000E /* EastMoneyProvider.swift in Sources */,
+				A1000000000000000000000F /* MarketDataService.swift in Sources */,
+				A10000000000000000000010 /* PortfolioEngine.swift in Sources */,
+				A10000000000000000000011 /* Formatters.swift in Sources */,
+				A10000000000000000000013 /* InstrumentSearchService.swift in Sources */,
+				A10000000000000000000014 /* InstrumentSearchView.swift in Sources */,
+				A10000000000000000000015 /* TradingCalendar.swift in Sources */,
+				A10000000000000000000016 /* QuoteStatus.swift in Sources */,
+				A10000000000000000000017 /* AppLog.swift in Sources */,
+				A10000000000000000000018 /* MockMarketData.swift in Sources */,
+				A10000000000000000000019 /* TransactionSaveService.swift in Sources */,
+				A1000000000000000000002B /* PositionClearService.swift in Sources */,
+				A1000000000000000000002C /* BankDepositTransferService.swift in Sources */,
+				A1000000000000000000001A /* FXRateProvider.swift in Sources */,
+				A1000000000000000000001B /* DecimalMath.swift in Sources */,
+				A1000000000000000000001C /* CompatTextFields.swift in Sources */,
+				A1000000000000000000001D /* AssetClass.swift in Sources */,
+				A1000000000000000000001E /* ManualAssets.swift in Sources */,
+				A1000000000000000000001F /* WealthSummaryEngine.swift in Sources */,
+				A10000000000000000000020 /* ManualAssetsView.swift in Sources */,
+				A10000000000000000000021 /* ReturnBreakdownView.swift in Sources */,
+				A10000000000000000000022 /* BankDepositsView.swift in Sources */,
+				A10000000000000000000023 /* CategoryManageViews.swift in Sources */,
+				A1000000000000000000002A /* HoldingOverviewComponents.swift in Sources */,
+				A10000000000000000000024 /* LifestyleLedger.swift in Sources */,
+				A10000000000000000000025 /* LifestyleLedgerView.swift in Sources */,
+				A10000000000000000000026 /* LocalDataMaintenance.swift in Sources */,
+				A10000000000000000000027 /* LegalDocuments.swift in Sources */,
+				A10000000000000000000029 /* AppTheme.swift in Sources */,
+				A1000000000000000000002D /* AppSupportConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10000000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93F4XGBU23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WealthKeeper;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiwen.WealthKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F1000000000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93F4XGBU23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WealthKeeper;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiwen.WealthKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000004 /* Build configuration list for PBXNativeTarget "WealthKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000009 /* Debug */,
+				F1000000000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000006 /* Build configuration list for PBXProject "WealthKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000007 /* Debug */,
+				F10000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10000000000000000000005 /* Project object */;
+}

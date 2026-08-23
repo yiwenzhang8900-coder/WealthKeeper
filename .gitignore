@@ -1,0 +1,30 @@
+# WealthKeeper
+#
+# Xcode
+#
+.DerivedData/
+build/
+build/DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+
+# SwiftPM
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# Misc
+*.playground
+
+.derivedData/
+.derivedDataDevice/
