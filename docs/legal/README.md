@@ -1,13 +1,24 @@
-# 法律页（GitHub Pages）
+# 法律页托管说明（上架必读）
 
-站点源目录为仓库根下的 `docs/`（含 `privacy.html` / `terms.html` / `index.html`）。
+App Store Connect **必须**填写可公网访问的隐私政策 HTTPS URL。
 
-## 发布后地址（仓库名 WealthKeeper、用户名 yiwen）
+- 支持邮箱：`yiwenzhang8900@gmail.com`
+- GitHub：`https://github.com/yiwenzhang8900-coder/WealthKeeper`
 
-- 首页：https://yiwen.github.io/WealthKeeper/
-- 隐私政策：https://yiwen.github.io/WealthKeeper/privacy.html
-- 用户协议：https://yiwen.github.io/WealthKeeper/terms.html
+## 公网地址（Pages 开启后）
 
-支持邮箱：`13526212527@163.com`
+- 首页：https://yiwenzhang8900-coder.github.io/WealthKeeper/
+- 隐私政策：https://yiwenzhang8900-coder.github.io/WealthKeeper/privacy/
+- 用户协议：https://yiwenzhang8900-coder.github.io/WealthKeeper/terms/
 
-若 GitHub 用户名不是 `yiwen`，请同步修改 `AppSupportConfig.swift` 中的 URL。
+## 开启 GitHub Pages
+
+1. 打开仓库 → **Settings → Pages**
+2. Source：Deploy from a branch
+3. Branch：`main`，Folder：`/docs`
+4. Save，等待 1～2 分钟后访问上面链接
+
+App Store Connect 隐私政策 URL 请填：  
+`https://yiwenzhang8900-coder.github.io/WealthKeeper/privacy/`
+
+Support URL 可用：`mailto:yiwenzhang8900@gmail.com`
